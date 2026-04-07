@@ -1,0 +1,8 @@
+[package]
+name = "bunny-sync"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bunny-api-tokio = { version = "0.4.0", features = ["edge_storage"] }
+tokio = { version = "1.50.0", features = ["full"] }
