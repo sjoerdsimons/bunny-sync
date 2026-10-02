@@ -5,7 +5,7 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1.0.102"
-bunny-api-tokio = { path = "../bunny-api-tokio", version = "0.4.0", features = ["edge_storage"] }
+bunny-api-tokio = { git = "https://github.com/sjoerdsimons/bunny-api-tokio.git", branch = "file-list-fixes", version = "0.4.0", features = ["edge_storage"] }
 clap = { version = "4", features = ["derive", "env"] }
 futures = "0.3"
 hex = "0.4"

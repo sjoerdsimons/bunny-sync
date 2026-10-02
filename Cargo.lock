@@ -94,6 +94,7 @@ checksum = "5d20789868f4b01b2f2caec9f5c4e0213b41e3e5702a50157d699ae31ced2fcb"
 [[package]]
 name = "bunny-api-tokio"
 version = "0.4.0"
+source = "git+https://github.com/sjoerdsimons/bunny-api-tokio.git?branch=file-list-fixes#f80b9cb9c9d40a23c912a898b76542aa242ec810"
 dependencies = [
  "bytes",
  "log",
